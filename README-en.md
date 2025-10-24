@@ -1,6 +1,8 @@
+[🇷🇺 На русском](README.md)
+
 # TicketCounter
 
-Cross-platform ticket tracking application with GTK4 GUI. Allows tracking the number of tickets completed per day, setting daily goals, viewing statistics and charts of completed tasks. Supports configuring the counter reset time, time zones, data export/import to JSON. The application automatically saves data and restores it on launch.
+Cross-platform application for counting completed tickets with GTK4 GUI. Allows tracking the number of tickets per day, setting daily goals, viewing statistics and charts of completed tasks. Supports configuring the counter reset time, time zones. The application automatically saves data to JSON file and restores it on launch.
 
 ## Requirements
 
@@ -15,7 +17,7 @@ Cross-platform ticket tracking application with GTK4 GUI. Allows tracking the nu
 mkdir build
 cd build
 cmake ..
-cmake --build . -j$(nproc)
+make -j$(nproc)
 ./TicketCounter
 ```
 
